@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HcLaunhcer</string>
+    <array name="appename">
+        <item>appename1</item>
+        <item>appename2</item>
+        <item>appename3</item>
+        <item>appename4</item>
+        <item>appename5</item>
+        <item>appename6</item>
+    </array>
+    <array name="packagename">
+        <item>packagename1</item>
+        <item>packagename2</item>
+        <item>packagename3</item>
+        <item>packagename4</item>
+        <item>packagename5</item>
+        <item>packagename6</item>
+    </array>
+    <array name="appicon">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+</resources>

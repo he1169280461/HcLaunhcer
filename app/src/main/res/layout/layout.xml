@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout android:id="@+id/system_icon_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout android:id="@+id/statusIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"/>
+        </LinearLayout>
+
+    <view
+        android:layout_width="30dip"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:visibility="invisible" />
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"/>
+    <LinearLayout
+        android:id="@+id/signal_battery_cluster"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="2dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        />
+
+
+    </LinearLayout>
+</LinearLayout>
